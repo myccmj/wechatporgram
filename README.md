@@ -1,2 +1,3 @@
 # wechatporgram
 微信小程序学习
+一个七夕节的微信小程序，主要涉及css动画和官方接口wx.createAnimation制作动画，营造浪漫的氛围
