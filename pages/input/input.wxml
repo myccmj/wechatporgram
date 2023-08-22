@@ -1,0 +1,10 @@
+<!--pages/proj4user/proj4user.wxml-->
+<view class="form-group" id="input">
+  <view class="form-cell">
+    <view class="form-cell_title">请输入您的称呼</view>
+    <input class="form-cell_input" placeholder="建议为两个字" placeholder-class="form-cell_title-placeholder" bindinput="bindKeyInput" value="{{title}}" />
+  </view>
+</view>
+<view class="menu-add-box" catchtap="click">
+  <icon class="iconfont icon-taohua" />
+</view>

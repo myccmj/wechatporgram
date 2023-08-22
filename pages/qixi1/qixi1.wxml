@@ -1,0 +1,42 @@
+<!--pages/cssCase/snow/index.wxml-->
+<view class="deng-box">
+  <view class="deng">
+    <view class="xian"></view>
+    <view class="deng-a">
+      <view class="deng-b">
+        <view class="deng-t">{{c1}}</view>
+      </view>
+    </view>
+    <view class="shui shui-a">
+      <view class="shui-c"></view>
+      <view class="shui-b"></view>
+    </view>
+  </view>
+</view>
+
+<!-- 灯笼2 -->
+<view class="deng-box1">
+  <view class="deng">
+    <view class="xian"></view>
+    <view class="deng-a">
+      <view class="deng-b">
+        <view class="deng-t">{{c2}}</view>
+      </view>
+    </view>
+    <view class="shui shui-a">
+      <view class="shui-c"></view>
+      <view class="shui-b"></view>
+    </view>
+  </view>
+</view>
+<view wx:for="{{left}}" wx:key="index">
+  <text style="left:{{left[index]}}rpx" animation="{{animation[index]}}" class='snow' bindtap="hide" data-index='{{index}}'>*</text>
+</view>
+<view class="page-body">
+  <text id="text1">
+  {{name}}
+  </text>
+  <text id="text2">
+  七夕节快乐
+  </text>
+</view>

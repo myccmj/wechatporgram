@@ -1,0 +1,43 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page {
+  --footer-height: 7vh;
+}
+.form-group {
+  width: calc(100% - 40px);
+  margin: 10px 20px;
+  border-radius: 10px;
+  background:white;
+}
+.form-cell {
+  padding: 20px 15px;
+}
+
+.form-cell:not(:last-child) {
+  border-bottom: rgba(0, 0, 0, 0.05) solid 1px;
+}
+
+.form-cell.inline {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fin{
+  background: lightgreen;
+}
+.undecided{
+  background: lightgoldenrodyellow;
+}
+.ref{
+  background: lightcoral;
+}
+
+
